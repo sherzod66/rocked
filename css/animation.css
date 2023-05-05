@@ -1,0 +1,104 @@
+.wrapper.blur {
+    filter: blur(50px);
+}
+
+.die-user__info._js-remove {
+    transition: all 1s ease 0s;
+    opacity: 1;
+    /*transform: perspective(600px) translate(0px, 10%) rotateX(99deg);*/
+    animation: remove-die 1s ease 1 0s forwards;
+
+}
+
+@keyframes remove-die {
+    0% {
+        transform: perspective(-600px) translate(0px, 0%) rotateX(0deg);
+    }
+
+    20% {
+        transform: perspective(-400px) translate(0px, 2%) rotateX(20deg);
+    }
+
+    40% {
+        transform: perspective(-200px) translate(0px, 4%) rotateX(40deg);
+    }
+
+    60% {
+        transform: perspective(100px) translate(0px, 6%) rotateX(60deg);
+    }
+
+    80% {
+        transform: perspective(400px) translate(0px, 8%) rotateX(80deg);
+    }
+
+    100% {
+        transform: perspective(600px) translate(0px, 10%) rotateX(99deg);
+        opacity: 0;
+    }
+}
+
+
+
+.rules__game-body._js-remove {
+    opacity: 1;
+    animation: close-die 1s ease alternate-reverse 1 0s forwards;
+}
+
+
+.rules__game-body._js-show {
+    animation: show-die 1s alternate ease 1 0s forwards;
+    opacity: 1;
+    visibility: visible;
+}
+
+@keyframes show-die {
+    0% {
+        transform: perspective(-600px) translate(0px, 10%) rotateX(99deg) scale(0);
+    }
+
+    20% {
+        transform: perspective(-400px) translate(0px, 2%) rotateX(20deg) scale(1.2);
+    }
+
+    40% {
+        transform: perspective(-200px) translate(0px, 4%) rotateX(40deg) scale(1.4);
+    }
+
+    60% {
+        transform: perspective(-100px) translate(0px, 6%) rotateX(60deg) scale(1.6);
+    }
+
+    80% {
+        transform: perspective(-400px) translate(0px, 8%) rotateX(80deg) scale(1.8);
+    }
+
+    100% {
+        transform: perspective(600px) translate(0px, 0%) rotateX(0deg) scale(1);
+    }
+}
+
+@keyframes close-die {
+    0% {
+        transform: perspective(-600px) translate(0px, 10%) rotateX(99deg) scale(0);
+    }
+
+    20% {
+        transform: perspective(-400px) translate(0px, 2%) rotateX(20deg) scale(1.2);
+    }
+
+    40% {
+        transform: perspective(-200px) translate(0px, 4%) rotateX(40deg) scale(1.4);
+    }
+
+    60% {
+        transform: perspective(-100px) translate(0px, 6%) rotateX(60deg) scale(1.6);
+    }
+
+    80% {
+        transform: perspective(-400px) translate(0px, 8%) rotateX(80deg) scale(1.8);
+    }
+
+    100% {
+        transform: perspective(600px) translate(0px, 0%) rotateX(0deg) scale(1);
+    }
+}
