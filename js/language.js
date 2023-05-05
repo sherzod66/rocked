@@ -78,7 +78,7 @@ function changeLanguageUz() {
     noMany.textContent = 'Balans yetarli emas!'
     win1.textContent = 'Siz olishga muvaffaq bo\'ldingiz!'
     win2.textContent = 'Sizning yutuqingiz'
-    wait.textContent = 'O\'yin oxirigacha kuting!'
+    wait.textContent = 'O\'yin tugashini kuting'
 }
 
 function changeLanguageRu() {
