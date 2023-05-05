@@ -146,6 +146,7 @@ body.lock {
 	background-color: #cfcfcf;
 	border-radius: 50%;
 	transition: all 500ms ease 0s;
+	box-shadow: 0px 0px 10px #ffffff;
 }
 
 .game__name-circle img {
