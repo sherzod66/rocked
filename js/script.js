@@ -4,7 +4,7 @@ S̹̖ͪ͌͞Ą͇͇͍̖̹͛ͪ̒̚Ḑ̮̱̭̞̞̦͎̎̎I̧̞͉̱̎Ḽ̛͎͒̄̅̃�
 "use strict"
 console.log("%cЧто ты сдесь делаешь?! Понравилось моя программа?", "color: #32ffce")
 console.log("%cЕсть вопросы обращайся 👉 https://t.me/Sadillaev_Sherzod", "color: #32ffce")
-console.log("%c—Sherzod" "color: #777777")
+console.log("%c—Sherzod", "color: #777777")
 
 const tablo = document.querySelector('.tablo >span')
 const loos = document.querySelector('.loos')
