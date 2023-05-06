@@ -64,7 +64,7 @@ function sendLang(lang) {
 function changeLanguageUz() {
     corrency.textContent = `So'm`
     loosBid.textContent = 'Siz tikishni ololmadingiz'
-    bidButton.textContent = 'Tikish'
+    bidButton.textContent = 'Pul tikish'
     getBid.textContent = 'Olish'
     canselBid.textContent = 'Bekor qilish'
     rulesGame.textContent = 'O\'yin qoidalari'
@@ -72,13 +72,13 @@ function changeLanguageUz() {
     info1.textContent = 'Kerakli miqdorni kiriting va "Tikish" tugmani bosing'
     info2.textContent = 'Raqamlar o\'sishini kuzating'
     info3.textContent = 'To\'xtashdan oldin raqamlarni yechib oling va X marta ko\'proq yutib oling!'
-    info4.textContent = "Biroq, vaqt chegaralari borligini unutmang. Senga kerak chekinmoq oldin mablag'lar raqamlar to'xtaydi, aks holda siz tikishingizni yo'qotasiz. Hamma narsa sizga bog'liq!"
+    info4.textContent = "Biroq sizda vaqt bo'yicha chegara bo'lishini yodingizdan chiqarmang, Siz mablag'laringizni Xushchaqchaq raqmlar toqtagnacha chiqarib olishingiz kerak, aks holda siz garovingizni yo'qotasiz. Siz bu yerda tavakkal qilasiz va yutasiz Hammasi sizga bog'liq!"
     clientName.textContent = 'Nomingizni yozing:'
     subBtt.textContent = 'Keyingisi'
     noMany.textContent = 'Balans yetarli emas!'
     win1.textContent = 'Siz olishga muvaffaq bo\'ldingiz!'
     win2.textContent = 'Sizning yutuqingiz'
-    wait.textContent = 'O\'yin oxirigacha kuting!'
+    wait.textContent = 'O\'yin tugashini kuting!'
 }
 
 function changeLanguageRu() {
