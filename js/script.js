@@ -1,4 +1,8 @@
+/*
+S̹̖ͪ͌͞Ą͇͇͍̖̹͛ͪ̒̚Ḑ̮̱̭̞̞̦͎̎̎I̧̞͉̱̎Ḽ̛͎̠̟̼͒̄̅̃Ḷ̸̯̼͚̪͖̌ͧͅA̷̙̹͇̤ͣ͊̇̀E̯̱̫͐̓̀́V̴͍͉͍̙̊ ̷̦͓͉͖̪ͥ̐Sͨ̂ͫ͏̜̻͎͈̘̜͔̠Ḫ̼̫̰̲̥̥͐̋͛̈͜E͖͙̣͖̪̬̿͟R̻̼͍̙̯ͪͤ̀Z̙̣͉͍̹̣͉ͬ̓̆͋͡Ơ̥̣̞͙̬͒D̪͇̟̯̯͍ͮ͗ͧ́ͅ
+*/
 "use strict"
+console.log("%cЧто ты здесь делаешь?! Понравилось мое приложение?" "color: #32ffce")
 
 const tablo = document.querySelector('.tablo >span')
 const loos = document.querySelector('.loos')
